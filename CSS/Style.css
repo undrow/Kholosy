@@ -153,6 +153,22 @@
 		clear: right;
 	}
 
+	.contact a {
+		text-decoration: none;
+		font-size: 24px;
+		color: #616161;
+		text-align: center;
+		line-height: 50px;
+		word-spacing: 5px;
+		font-weight: bold;
+		font-family: 'Tajawal', sans-serif;
+		letter-spacing: 2px;
+	}
+
+	.contact a:hover {
+		color: #c4112f;
+	}
+
 	.contact p {
 			margin: auto;
 			font-size: 24px;
@@ -441,6 +457,11 @@
 	}
 
 	.img-box:hover .limo-item {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.img-box:focus .limo-item {
 		opacity: 1;
 		visibility: visible;
 	}
