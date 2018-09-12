@@ -475,6 +475,7 @@
 		margin-top: 120px;
 	}
 
+
 /* end images gallery */
 
 										/* Start Media Query */
@@ -490,15 +491,15 @@
 		width: 150px;
 		z-index: 1000;
 		float: left!important;
-		margin-left: 0px!important;
+		margin-right: 90px!important;
 		background-color: #ffffff;
 		border: 1px solid #969696;
 		border-radius: 5px;
 	}
 
 	.navbar-brand {
-		margin-right: 10px;
-		padding-top: 5px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 	.navbar-brand img {
@@ -526,8 +527,8 @@
 	.navbar-light .navbar-nav .nav-link {
 		font-size: 18px;
 		height: 60px;
-		padding-top: 20px;
-		width: 140px;
+		padding-top: 10px;
+		width: 130px;
 		color: #1F1F1F;
 		background-color: transparent;
 		display: inline-block;
@@ -535,11 +536,18 @@
 		text-align: right;
 	}
 
+	.navbar-light .navbar-nav .nav-item:hover .nav-link {
+		color: #c4112f;
+		padding-right: 10px;
+		line-height: 50px;
+		display: inline-block;
+	}
+
 	/* carousel */
 
 	.carousel-item img {
-		max-height: 50vh ;
-		min-height: 50vh ;
+		max-height: 60vh ;
+		min-height: 60vh ;
 	}
 
 	/* about */
@@ -595,7 +603,7 @@
 	.carousel-control-prev, .carousel-control-next {
 		width: 25px;
 		height: 25px;
-		margin-top: 80px;
+		margin-top: 70px;
 	}
 
 	/* contacts */
@@ -679,6 +687,152 @@
 
 	.gallery-image2 {
 		height: 220px;
+	}
+
+	.gallery-image2 img , .gallery-image1 img {
+		width: 100%!important;
+		height: 100%!important;
+	}
+
+	.img-box-effect {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		background-color: rgb(0,0,0,.6);
+		opacity: 0;
+		-webkit-transition: opacity 0.8s, visibility 0.8s;
+		transition: opacity 0.8s, visiblity 0.8s;
+		visibility: hidden;
+	}
+
+	.img-box-effect h5 {
+		font-size: 16px;
+		margin-top: 110px;
+	}
+
+	.img-box:hover .img-box-effect {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.img-box:focus .img-box-effect {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.limo-item {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 15px;
+		left: 15px;
+		background-color: rgb(0,0,0,.6);
+		opacity: 0;
+		-webkit-transition: opacity 0.8s, visibility 0.8s;
+		transition: opacity 0.8s, visiblity 0.8s;
+		visibility: hidden;
+	}
+
+	.img-box:hover .limo-item {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.img-box:focus .limo-item {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.limo-item h5 {
+		font-size: 20px;
+		margin-top: 110px;
+	}
+
+	/* honeymoon */
+
+	.honeymoon h2 {
+		margin: 30px 10%;
+		font-size: 20px;
+		padding-bottom: 15px;
+	}
+
+	.honeymoon .info {
+		margin-top: 80px;
+		font-size: 16px;
+		line-height: 40px;
+		text-align: right;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	/* Tourism */
+
+	.tourism h2 {
+		margin: 30px 10%;
+		font-size: 20px;
+	}
+
+	.tourism .info {
+		margin-top: 80px;
+		font-size: 16px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	/* Limousine */
+
+	.limo h2 {
+		margin: 30px 10%;
+		font-size: 20px;
+	}
+
+	.limo .info {
+		margin-top: 80px;
+		font-size: 16px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	/* Trips */
+
+	.trips h2 {
+		margin: 30px 10%;
+		font-size: 20px;
+	}
+
+	.trips .info {
+		margin-top: 80px;
+		font-size: 16px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	/* Flights */
+
+	.flights h2 {
+		margin: 30px 10%;
+		font-size: 20px;
+	}
+
+	.flights .flights-cover {
+		max-height: 60vh;
+	}
+
+	.flights .info {
+		margin-top: 80px;
+	}
+
+	.flights .info h3 {
+		font-size: 19px;
+		line-height: 40px;
+	}
+
+	.flights .info p {
+		font-size: 16px;
+		line-height: 35px;
+		margin-top: 30px;
 	}
 
 }
