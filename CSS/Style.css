@@ -155,6 +155,7 @@
 
 	.contact a {
 		text-decoration: none;
+		color: #616161;
 		font-size: 24px;
 		color: #616161;
 		text-align: center;
@@ -624,6 +625,19 @@
 			font-weight: bold;
 			font-family: 'Tajawal', sans-serif;
 			letter-spacing: 2px;
+	}
+
+	.contact a {
+		text-decoration: none;
+		color: #616161;
+		font-size: 16px;
+		color: #616161;
+		text-align: center;
+		line-height: 40px;
+		word-spacing: 5px;
+		font-weight: bold;
+		font-family: 'Tajawal', sans-serif;
+		letter-spacing: 2px;
 	}
 
 	/* footer */
