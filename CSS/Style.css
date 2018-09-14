@@ -28,6 +28,11 @@
 		padding: 0px;
 	}
 
+	.side-padding {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
 	.no-margin {
 		margin: 0px;
 	}
@@ -272,12 +277,28 @@
 
 	.honeymoon .info {
 		margin-top: 80px;
-		color: #3b3b3b;
 		font-size: 20px;
 		line-height: 40px;
 		text-align: right;
-		padding-left: 100px;
-		padding-right: 100px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.honeymoon .info h3 {
+		color: #c4112f;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	.honeymoon .info ul {
+		color: #3b3b3b;
+		list-style: none;
+	}
+
+	.honeymoon .info ul li::before {
+		content: "-";
+		color: #999999;
+		margin-left: 2%;
 	}
 
 /* end honeymoon */
@@ -378,6 +399,10 @@
 		max-height: 90vh;
 	}
 
+	.flights .flights-cover img {
+		width: 100%
+	}
+
 	.flights .info {
 		margin-top: 100px;
 		margin-right: 20px;
@@ -436,7 +461,7 @@
 		font-size: 24px;
 		text-align: center; 
 		font-weight: bold;
-		margin-top: 120px;
+		line-height: 250px;
 	}
 
 	.img-box:hover .img-box-effect {
@@ -491,7 +516,7 @@
 		width: 150px;
 		z-index: 1000;
 		float: left!important;
-		margin-right: 90px!important;
+		margin-right: 160px!important;
 		background-color: #ffffff;
 		border: 1px solid #969696;
 		border-radius: 5px;
@@ -504,10 +529,6 @@
 
 	.navbar-brand img {
 		width: 150px;
-	}
-	
-	.mr-auto, .mx-auto {
-		margin-left: 20px; 
 	}
 
 	.navbar-collapse {
@@ -615,7 +636,7 @@
 	}
 
 	.contact h3 {
-			margin: 20px 5%;
+			margin: 20px 5% 40px 5%;
 			float: right;
 			clear: right;
 			border-bottom: 2px solid #c4112f;
@@ -671,7 +692,7 @@
 	}
 
 	.footer .row .rights p {
-		font-size: 12px;
+		font-size: 11px;
 	}
 
 	.footer .row .icons a i {
@@ -682,11 +703,11 @@
 	/* gallery */
 
 	.gallery-image1 {
-		height: 440px;
+		height: 300px;
 	}
 
 	.gallery-image2 {
-		height: 220px;
+		height: 150px;
 	}
 
 	.gallery-image2 img , .gallery-image1 img {
@@ -709,7 +730,7 @@
 
 	.img-box-effect h5 {
 		font-size: 16px;
-		margin-top: 110px;
+		line-height: 150px;
 	}
 
 	.img-box:hover .img-box-effect {
@@ -759,7 +780,7 @@
 	}
 
 	.honeymoon .info {
-		margin-top: 80px;
+		margin-top: 50px;
 		font-size: 16px;
 		line-height: 40px;
 		text-align: right;
@@ -775,7 +796,7 @@
 	}
 
 	.tourism .info {
-		margin-top: 80px;
+		margin-top: 50px;
 		font-size: 16px;
 		padding-left: 20px;
 		padding-right: 20px;
@@ -789,7 +810,7 @@
 	}
 
 	.limo .info {
-		margin-top: 80px;
+		margin-top: 50px;
 		font-size: 16px;
 		padding-left: 20px;
 		padding-right: 20px;
@@ -803,7 +824,7 @@
 	}
 
 	.trips .info {
-		margin-top: 80px;
+		margin-top: 50px;
 		font-size: 16px;
 		padding-left: 20px;
 		padding-right: 20px;
@@ -821,7 +842,7 @@
 	}
 
 	.flights .info {
-		margin-top: 80px;
+		margin-top: 50px;
 	}
 
 	.flights .info h3 {
