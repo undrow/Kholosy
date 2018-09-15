@@ -343,6 +343,22 @@
 		color: #616161;
 	}
 
+	.limo .card {
+		text-align: right;
+		margin-bottom: 20px;
+	}
+
+	.btn-link {
+		font-weight: 300;
+		color: #585858;
+		background-color: transparent;
+		font-size: 18px;
+	}
+
+	.btn-link:hover {
+		color: #c4112f;
+	}
+
 	.limo .info {
 		margin-top: 100px;
 		color: #3b3b3b;
@@ -786,6 +802,11 @@
 		text-align: right;
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+
+	.honeymoon .info h3 {
+		font-size: 19px;
+		line-height: 40px;
 	}
 
 	/* Tourism */
