@@ -322,7 +322,7 @@
 		color: #3b3b3b;
 		font-size: 20px;
 		line-height: 40px;
-		text-align: right;
+		text-align: center;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
@@ -344,29 +344,50 @@
 	}
 
 	.limo .card {
-		text-align: right;
+		text-align: center;
 		margin-bottom: 20px;
 	}
 
 	.btn-link {
-		font-weight: 300;
+		width: 100%;
+		font-weight: 500;
 		color: #585858;
 		background-color: transparent;
-		font-size: 18px;
+		font-size: 20px;
 	}
 
 	.btn-link:hover {
 		color: #c4112f;
+		text-decoration: none;
+	}
+
+	.btn-link:focus {
+		color: #c4112f;
+		text-decoration: none;
+	}
+
+	.btn-link:focus i {
+		transform: rotate(180deg);
+		transition: 0.5s;
+	}
+
+	.btn-link i {
+		margin-right: 15px;
 	}
 
 	.limo .info {
-		margin-top: 100px;
+		margin-top: 50px;
 		color: #3b3b3b;
 		font-size: 20px;
 		line-height: 40px;
-		text-align: right;
+		text-align: center;
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+
+	.limo .info h3 {
+		color: #c4112f;
+		margin-bottom: 30px;
 	}
 
 /* end limousine */
@@ -390,7 +411,7 @@
 		color: #3b3b3b;
 		font-size: 20px;
 		line-height: 40px;
-		text-align: right;
+		text-align: center;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
@@ -434,7 +455,7 @@
 		color: #4d4c4c;
 		font-size: 20px;
 		line-height: 50px;
-		text-align: right;
+		text-align: center;
 		margin-top: 50px;
 	}
 
@@ -532,7 +553,7 @@
 		width: 150px;
 		z-index: 1000;
 		float: left!important;
-		margin-right: 160px!important;
+		margin-right: 180px!important;
 		background-color: #ffffff;
 		border: 1px solid #969696;
 		border-radius: 5px;
@@ -719,11 +740,11 @@
 	/* gallery */
 
 	.gallery-image1 {
-		height: 250px;
+		height: 200px;
 	}
 
 	.gallery-image2 {
-		height: 125px;
+		height: 100px;
 	}
 
 	.gallery-image2 img , .gallery-image1 img {
@@ -746,7 +767,7 @@
 
 	.img-box-effect h5 {
 		font-size: 16px;
-		line-height: 150px;
+		line-height: 100px;
 	}
 
 	.img-box:hover .img-box-effect {
@@ -837,6 +858,10 @@
 		padding-right: 20px;
 	}
 
+	.limo .card-body {
+		padding: 0px;
+	}
+
 	/* Trips */
 
 	.trips h2 {
@@ -882,13 +907,56 @@
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) and (max-width : 768px) {
 
+	.navbar-collapse {
+		width: 150px;
+		z-index: 1000;
+		float: left!important;
+		margin-right: 180px!important;
+		background-color: #ffffff;
+		border: 1px solid #969696;
+		border-radius: 5px;
+	}
+
 	.navbar-brand {
-		margin-left: auto;
 		margin-right: auto;
+		margin-left: auto;
 	}
 
 	.navbar-brand img {
 		width: 150px;
+	}
+
+	.navbar-collapse {
+		-ms-flex-preferred-size: 100%;
+		flex-basis: 40%;
+		-ms-flex-positive: 1;
+		flex-grow: .4;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+
+	.navbar-nav .navbar-item {
+		width: 140px;
+		height: 50px;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 18px;
+		height: 60px;
+		padding-top: 10px;
+		width: 130px;
+		color: #1F1F1F;
+		background-color: transparent;
+		display: inline-block;
+		line-height: 50px;
+		text-align: right;
+	}
+
+	.navbar-light .navbar-nav .nav-item:hover .nav-link {
+		color: #c4112f;
+		padding-right: 10px;
+		line-height: 50px;
+		display: inline-block;
 	}
 	
 	/* carousel */
