@@ -730,7 +730,7 @@
 	/* footer */
 
 	.footer {
-		height: 90px;
+		height: 70px;
 		position: relative;
 		text-align: center;
 		margin-top: 40px;
@@ -738,24 +738,25 @@
 	}
 	
 	.footer .row .rights {
-		top: 40px;
+		bottom: 0px;
 		position: absolute;
-		text-align: center;
+		text-align: center; 
 	}
 	
 	.footer .row .icons {
 		position: absolute;
 		text-align: center;
-		top: -8px;
+		top: 10px;
 	}
 
 	.footer .row .rights p {
 		font-size: 11px;
-		line-height: 35px;
+		line-height: 5px;
 	}
 
 	.footer .row .icons a i {
-		font-size: 14px;
+		font-size: 12px;
+		line-height: 20px;
 	}
 
 
