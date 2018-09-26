@@ -37,8 +37,9 @@
 		margin: 0px;
 	}
 
-	.margin-bottom {
-		margin-bottom: 50px;
+	.margin-top-bottom {
+		margin-top: 25px;
+		margin-bottom: 25px;
 	}
 
 	.my-border {
@@ -231,20 +232,17 @@
 		border-top: 1px solid #C0C0C0;
 		float: right;
 		direction: ltr;
-	}
-
-	.footer .row .rights {
-		padding-top: 25px;
+		padding: 0px 100px;
 	}
 
 	.footer .row .rights p {
 		color: #4F4F4F;
 		font-size: 14px;
+		line-height: 60px;
 	}
 
 	.footer .row .icons {
 		text-align: right;
-		padding-top: 25px;
 	}
 
 	.footer .row .icons a i {
@@ -253,6 +251,7 @@
 		text-decoration: none!important;
 		font-size: 16px;
 		color: #4F4F4F;
+		line-height: 70px;
 	}
 
 	.footer .row .icons a i:hover {
@@ -416,6 +415,22 @@
 		padding-right: 20px;
 	}
 
+	.trips .info h3 {
+		color: #c4112f;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	.trips .info ul {
+		list-style-type: none;
+	}
+
+	.trips .info li {
+		text-align: right;
+		font-size: 20px;
+		line-height: 45px;
+	}
+
 /* end trips */
 
 /* start flights */
@@ -449,6 +464,7 @@
 	.flights .info h3 {
 		color: #c4112f;
 		text-align: center;
+		margin-top: 30px;
 	}
 
 	.flights .info p {
@@ -545,6 +561,11 @@
 /* Custom, iPhone Retina */ 
 	@media only screen and (min-width : 320px) and (max-width : 480px) {
 	
+	.margin-top-bottom {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
 	.navbar-light .navbar-nav {
 		padding-bottom: 10px;
 	}
@@ -604,8 +625,8 @@
 	/* carousel */
 
 	.carousel-item img {
-		max-height: 60vh ;
-		min-height: 60vh ;
+		max-height: 50vh ;
+		min-height: 50vh ;
 	}
 
 	/* about */
@@ -653,15 +674,15 @@
 	}
 
 	.clients .carousel-item img {
-		max-height: 25vh;
-		min-height: 25vh;
-		max-width: 80%;
+		max-height: 18vh;
+		min-height: 18vh;
+		max-width: 85%;
 	}
 
 	.carousel-control-prev, .carousel-control-next {
 		width: 25px;
 		height: 25px;
-		margin-top: 70px;
+		margin-top: 50px;
 	}
 
 	/* contacts */
@@ -709,14 +730,15 @@
 	/* footer */
 
 	.footer {
-		height: 80px;
+		height: 90px;
 		position: relative;
 		text-align: center;
-		margin-top: 50px;
+		margin-top: 40px;
+		padding: 0px;
 	}
 	
 	.footer .row .rights {
-		top: 25px;
+		top: 40px;
 		position: absolute;
 		text-align: center;
 	}
@@ -724,12 +746,12 @@
 	.footer .row .icons {
 		position: absolute;
 		text-align: center;
-		top: 0;
-		padding-top: 10px;  
+		top: -8px;
 	}
 
 	.footer .row .rights p {
 		font-size: 11px;
+		line-height: 35px;
 	}
 
 	.footer .row .icons a i {
@@ -740,11 +762,11 @@
 	/* gallery */
 
 	.gallery-image1 {
-		height: 200px;
+		height: 160px;
 	}
 
 	.gallery-image2 {
-		height: 100px;
+		height: 80px;
 	}
 
 	.gallery-image2 img , .gallery-image1 img {
@@ -766,8 +788,8 @@
 	}
 
 	.img-box-effect h5 {
-		font-size: 16px;
-		line-height: 100px;
+		font-size: 12px;
+		line-height: 80px;
 	}
 
 	.img-box:hover .img-box-effect {
@@ -804,8 +826,8 @@
 	}
 
 	.limo-item h5 {
-		font-size: 20px;
-		margin-top: 110px;
+		font-size: 14px;
+		margin-top: 35px;
 	}
 
 	/* honeymoon */
@@ -828,6 +850,7 @@
 	.honeymoon .info h3 {
 		font-size: 19px;
 		line-height: 40px;
+		margin-bottom: 25px;
 	}
 
 	/* Tourism */
@@ -839,7 +862,7 @@
 
 	.tourism .info {
 		margin-top: 50px;
-		font-size: 16px;
+		font-size: 14px;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
@@ -847,19 +870,26 @@
 	/* Limousine */
 
 	.limo h2 {
-		margin: 30px 10%;
+		margin: 30px 10% 20px 10%;
 		font-size: 20px;
 	}
 
 	.limo .info {
-		margin-top: 50px;
-		font-size: 16px;
-		padding-left: 20px;
-		padding-right: 20px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+		font-size: 14px;
+		padding-left: 30px;
+		padding-right: 30px;
+		line-height: 30px;
 	}
 
 	.limo .card-body {
 		padding: 0px;
+	}
+
+	.btn-link {
+		font-weight: 400;
+		font-size: 18px;
 	}
 
 	/* Trips */
@@ -871,9 +901,19 @@
 
 	.trips .info {
 		margin-top: 50px;
-		font-size: 16px;
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+
+	.trips .info h3 {
+		font-size: 18px;
+		line-height: 40px;
+		margin-bottom: 20px;
+	}
+
+	.trips .info li {
+		font-size: 14px;
+		line-height: 35px;
 	}
 
 	/* Flights */
@@ -911,15 +951,14 @@
 		width: 150px;
 		z-index: 1000;
 		float: left!important;
-		margin-right: 180px!important;
+		margin-right: 240px!important;
 		background-color: #ffffff;
 		border: 1px solid #969696;
 		border-radius: 5px;
 	}
 
 	.navbar-brand {
-		margin-right: auto;
-		margin-left: auto;
+		margin: auto;
 	}
 
 	.navbar-brand img {
@@ -1011,14 +1050,18 @@
 	}
 
 	.clients .carousel-item img {
-		max-height: 50vh;
-		min-height: 50vh;
+		max-height: 17vh;
+		min-height: 17vh;
 	}
 
 	.carousel-control-prev, .carousel-control-next {
 		width: 25px;
 		height: 25px;
-		margin-top: 80px;
+		margin-top: 55px;
+	}
+
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		background-size: 80% 80%;
 	}
 
 	/* contacts */
@@ -1040,10 +1083,10 @@
 
 	.contact p {
 		margin: auto;
-		font-size: 17px;
+		font-size: 16px;
 		color: #616161;
 		text-align: center;
-		line-height: 40px;
+		line-height: 35px;
 		word-spacing: 5px;
 		font-weight: bold;
 		font-family: 'Tajawal', sans-serif;
@@ -1057,18 +1100,23 @@
 		position: relative;
 		text-align: center;
 		margin-top: 50px;
+		padding: 0px;
 	}
 	
 	.footer .row .rights {
-		top: 40px;
+		top: 0px;
 		position: absolute;
 		text-align: center;
 	}
+
+	footer .row .rights p {
+		font-size: 12px;
+	}
 	
 	.footer .row .icons {
-		margin-right: 60px;
 		position: absolute;
 		text-align: center;
+		top: 0px;
 	}
 
 	.footer .row .icons a i:hover {
