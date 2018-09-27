@@ -580,7 +580,7 @@
 		width: 150px;
 		z-index: 1000;
 		float: left!important;
-		margin-right: 190px!important;
+		margin-right: 185px!important;
 		background-color: #ffffff;
 		border: 1px solid #969696;
 		border-radius: 5px;
@@ -593,13 +593,14 @@
 
 	.navbar-brand img {
 		width: 150px;
+		margin-right: 30px;
 	}
 
 	.navbar-collapse {
 		-ms-flex-preferred-size: 100%;
-		flex-basis: 40%;
+		flex-basis: 45%;
 		-ms-flex-positive: 1;
-		flex-grow: .4;
+		flex-grow: .45;
 		-ms-flex-align: center;
 		align-items: center;
 	}
@@ -613,17 +614,17 @@
 		font-size: 18px;
 		height: 60px;
 		padding-top: 10px;
-		width: 130px;
+		width: 155px;
 		color: #1F1F1F;
 		background-color: transparent;
 		display: inline-block;
 		line-height: 50px;
-		text-align: right;
+		text-align: center;
+		padding-left: 0px;
 	}
 
 	.navbar-light .navbar-nav .nav-item:hover .nav-link {
 		color: #c4112f;
-		padding-right: 10px;
 		line-height: 50px;
 		display: inline-block;
 	}
