@@ -1767,8 +1767,33 @@
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
+	.navbar-brand {
+		margin-right: 10px;
+	}
 	
+	.navbar-brand img {
+		width: 180px;
+		height: 75px;
+	}
 
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 22px;
+		padding-left: 20px;
+		min-width: 100px;
+	}
+
+	/* footer */
+
+	.footer {
+		padding: 0px 45px;
+	}
+
+	/* Tourism */
+
+	.tourism .info {
+		line-height: 45px;
+	}
+	
 }
 
 /* Large Devices, Wide Screens */
@@ -1790,6 +1815,3 @@
 }
 
 										/* End Media Query */
-
-
-
