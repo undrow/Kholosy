@@ -1795,6 +1795,14 @@
 	.tourism .info {
 		line-height: 45px;
 	}
+
+	.gallery-image1 {
+		height: 460px;
+	}
+
+	.gallery-image2 {
+		height: 230px;
+	}
 	
 }
 
