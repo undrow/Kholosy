@@ -693,7 +693,7 @@
 	.carousel-control-prev, .carousel-control-next {
 		width: 25px;
 		height: 25px;
-		margin-top: 50px;
+		margin-top: 7vh;
 	}
 
 	/* contacts */
@@ -1493,9 +1493,9 @@
 	}
 
 	.carousel-control-prev, .carousel-control-next {
-		width: 25px;
-		height: 25px;
-		margin-top: 50px;
+		width: 28px;
+		height: 28px;
+		margin-top: 8vh;
 	}
 
 	/* contacts */
