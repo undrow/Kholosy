@@ -751,13 +751,15 @@
 	.footer .row .rights {
 		bottom: 0px;
 		position: absolute;
-		text-align: center; 
+		text-align: center;
+		padding-right: 35px;
 	}
 	
 	.footer .row .icons {
 		position: absolute;
 		text-align: center;
 		top: 10px;
+		padding-right: 30px;
 	}
 
 	.footer .row .rights p {
@@ -1768,7 +1770,7 @@
 @media only screen and (min-width : 992px) {
 
 	.navbar-brand {
-		margin-right: 10px;
+		margin-right: 0px;
 	}
 	
 	.navbar-brand img {
@@ -1777,9 +1779,9 @@
 	}
 
 	.navbar-light .navbar-nav .nav-link {
-		font-size: 22px;
-		padding-left: 20px;
-		min-width: 100px;
+		font-size: 20px;
+		padding-left: 10px;
+		min-width: 80px;
 	}
 
 	/* footer */
@@ -1798,6 +1800,25 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+
+	nav {
+		height: 100px;
+	}
+
+	.navbar-brand {
+		margin-right: 40px;
+	}
+	
+	.navbar-brand img {
+		width: 200px;
+		height: 80px;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 20px;
+		padding-left: 20px;
+		min-width: 90px;
+	}
 
 	/* Tourism */
 
